@@ -1,0 +1,4 @@
+oil,ADIOS_record,API_gravity_deg,density_kg_m3,density_reference_temperature,kinematic_viscosity_cSt,viscosity_reference_temperature,interfacial_tension_N_m,Ymax
+Qua Iboe,AD01483,36.2,843.03,285 K,2.05,37.8 C,0.02970,0.900
+Bonny Light,AD01440,34.6,851.16,285 K,3.60,37.8 C,0.03011,0.900
+Cabinda Blend,AD01442,32.6,861.53,285 K,14.39,37.8 C,0.03062,0.874

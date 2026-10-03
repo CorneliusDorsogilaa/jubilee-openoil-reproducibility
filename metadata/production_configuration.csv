@@ -1,0 +1,21 @@
+parameter,value,notes
+release_longitude_deg,-2.89000,WGS84
+release_latitude_deg,4.60000,WGS84
+release_duration_h,6,continuous surface release
+release_radius_m,500,
+tracking_horizon_h,48,
+reference_release_rate_m3_h,1,normalised fate accounting only
+production_particle_count,1000,
+production_transport_timestep_s,1800,30 min
+output_timestep_s,3600,60 min
+internal_vertical_mixing_timestep_s,60,C2-C3
+horizontal_diffusivity_m2_s,100,authoritative run configuration; some NetCDF metadata fields may report None
+reference_master_seed,20220901,
+ensemble_seed_range,20220901-20220920,20 seeds
+baseline_oil,NOAA ADIOS AD01440 Bonny Light,analogue not exact Jubilee assay
+current_uncertainty_m_s,0.05,Gaussian SD per component per model step
+wind_uncertainty_m_s,0.5,Gaussian SD per component per model step
+OpenDrift_distribution,1.14.12,
+OpenDrift_internal_NetCDF_identifier,1.14.11,
+forcing_start_UTC,2020-03-01T00:00:00Z,
+forcing_end_UTC,2020-03-03T00:00:00Z,

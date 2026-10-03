@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or derived data, please cite the archived release and the associated paper."
+title: "Jubilee OpenOil Process Attribution: Code and Derived Data"
+type: software
+authors:
+  - family-names: Dorsogilaa
+    given-names: Cornelius
+  - family-names: Mohammed
+    given-names: Shaibu
+  - family-names: Boakye-Ansah
+    given-names: Yaw Akyampon
+  - family-names: Dapilee
+    given-names: Noel S.
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/CorneliusDorsogilaa/jubilee-openoil-reproducibility"
+abstract: >-
+  Reproducibility code and derived analysis data for a stepwise OpenDrift/OpenOil
+  process-attribution study at the Jubilee Field, Ghana, including ensemble,
+  numerical-robustness, horizontal-diffusivity, vertical-depth, mechanism, and
+  oil-record sensitivity analyses.
+keywords:
+  - OpenDrift
+  - OpenOil
+  - oil spill modelling
+  - Jubilee Field
+  - process attribution
+  - vertical exchange
+  - emulsification
