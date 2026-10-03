@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the submission-matched repository and optionally regenerate SHA256 manifest.
+"""Verify the reproducibility release package and optionally regenerate SHA256 manifest.
 
 Usage
 -----
