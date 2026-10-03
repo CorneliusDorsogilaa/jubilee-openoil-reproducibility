@@ -8,7 +8,7 @@ Authors: Cornelius Dorsogilaa, Shaibu Mohammed, Yaw Akyampon Boakye-Ansah, and N
 
 ## Status
 
-This repository contains the submission-matched reproducibility package for the paper, including the analysis code, derived data, validation diagnostics, software-environment records, and figure-source tables used for the final manuscript and Supporting Information.
+This repository contains the reproducibility package for the paper, including the analysis code, derived data, validation diagnostics, software-environment records, and figure-source tables used for the manuscript and Supporting Information.
 
 ## Study design
 
@@ -115,7 +115,7 @@ The paper compares Qua Iboe (AD01483), Bonny Light (AD01440), and Cabinda Blend 
 
 ## Derived data
 
-The `derived_data/` directory contains the frozen source tables used for the submitted manuscript diagnostics. Compact trajectory and per-element sources that replace redistribution of selected raw NetCDFs are stored in `archive_sources/`. A machine-readable figure-to-source map is stored in `metadata/figure_source_inventory.csv`, with a human-readable inventory in `docs/figure_source_inventory.md`. The final figure-source package is complete; the SHA256 manifest is regenerated only after all release files are frozen.
+The `derived_data/` directory contains the frozen source tables used for the manuscript diagnostics. Compact trajectory and per-element sources that replace redistribution of selected raw NetCDFs are stored in `archive_sources/`. A machine-readable figure-to-source map is stored in `metadata/figure_source_inventory.csv`, with a human-readable inventory in `docs/figure_source_inventory.md`. The final figure-source package is complete; the SHA256 manifest is regenerated only after all release files are frozen.
 
 ## Environment
 
@@ -138,4 +138,4 @@ Code in this repository is released under the MIT License. Derived tables create
 
 ## Raw-output archive policy
 
-The public release is intentionally source-table based rather than a bulk dump of OpenOil NetCDF outputs. The repository archives the run configuration, authoritative analysis code, per-seed/diagnostic tables, and compact trajectory/per-element exports sufficient to redraw the submitted figures. Large raw OpenOil NetCDF outputs are not planned for the public Zenodo release. A full model rerun requires the documented ERA5 and GLORYS forcing products, which remain under their providers' access and licensing terms.
+The public release is intentionally source-table based rather than a bulk dump of OpenOil NetCDF outputs. The repository archives the run configuration, authoritative analysis code, per-seed/diagnostic tables, and compact trajectory/per-element exports sufficient to redraw the manuscript figures. Large raw OpenOil NetCDF outputs are not planned for the public Zenodo release. A full model rerun requires the documented ERA5 and GLORYS forcing products, which remain under their providers' access and licensing terms.
