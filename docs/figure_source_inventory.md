@@ -1,14 +1,14 @@
 # Figure source inventory
 
-This record maps each submitted main-manuscript and Supporting Information figure to the final archived source data and the analysis or plotting code retained for provenance.
+This record maps each main-manuscript and Supporting Information figure to the archived source data and the analysis or plotting code retained for provenance.
 
 The machine-readable version is `metadata/figure_source_inventory.csv`.
 
 ## Final archive state
 
-The submission figure-source package is complete. Large OpenOil NetCDF outputs are intentionally not redistributed. The archive instead preserves the authoritative analysis code, submitted-figure source tables, validation diagnostic tables, and compact trajectory/per-element exports needed to verify the plotted results.
+The figure-source package is complete. Large OpenOil NetCDF outputs are intentionally not redistributed. The archive instead preserves the authoritative analysis code, manuscript figure-source tables, validation diagnostic tables, and compact trajectory/per-element exports needed to verify the plotted results.
 
-For Figures 1, 3, 4, and 6, the original figure builders are retained as provenance scripts that recompute source tables from the local raw NetCDF outputs. Because those raw NetCDFs are not part of the public archive, the committed CSV/GZIP source tables are the frozen submission-matched figure sources. Figure 2 is directly rebuilt from archived CSVs. Figure 5 is directly rebuilt from the archived mechanism table.
+For Figures 1, 3, 4, and 6, the original figure builders are retained as provenance scripts that recompute source tables from the local raw NetCDF outputs. Because those raw NetCDFs are not part of the public archive, the committed CSV/GZIP source tables are the frozen figure sources. Figure 2 is directly rebuilt from archived CSVs. Figure 5 is directly rebuilt from the archived mechanism table.
 
 ## Main manuscript
 
@@ -35,7 +35,7 @@ The final public archive does **not** redistribute the large raw OpenOil NetCDF 
 
 1. exact production configuration and environment records,
 2. authoritative analysis and figure-generation code,
-3. frozen submission-matched figure-source tables,
+3. frozen figure-source tables,
 4. per-seed and validation diagnostic tables,
 5. compact trajectory and per-element exports for figures that otherwise depend directly on raw NetCDFs.
 
@@ -43,4 +43,4 @@ A full model rerun requires the documented ERA5 and GLORYS products under their 
 
 ## Freeze order
 
-After any final repository edit, regenerate `metadata/file_manifest_sha256.csv`. Only then create and tag `v1.0.0-paper-submission`, archive that release in Zenodo, and insert the resulting DOI into the manuscript and Supporting Information.
+After any final repository edit, regenerate `metadata/file_manifest_sha256.csv`. Only then create and tag `v1.0.0`, archive that release in Zenodo, and insert the resulting DOI into the manuscript and Supporting Information.
