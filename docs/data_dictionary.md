@@ -22,10 +22,10 @@ Reference-realization C3 fate, represented-mass accounting, evaporation, dispers
 Corrected C2/C3 mechanism-reconstruction time series. Downstream annotations must use the mixed-unit corrected Ohnesorge result, approximately 465.8× for the post-release C3/C2 ratio.
 
 ## Fig6_timestep_screen.csv
-Submitted timestep-screen values for the documented C3 reference-realization comparison.
+Timestep-screen values for the documented C3 reference-realization comparison.
 
 ## Fig6_particle_count_ensemble.csv
-Submitted 20-seed particle-count ensemble summary used in Fig. 6.
+20-seed particle-count ensemble summary used in Fig. 6.
 
 ## FigS3_oil_property_summary.csv
 Selected ADIOS oil-record properties used to contextualize the three-oil sensitivity analysis.
@@ -37,7 +37,7 @@ Summary outcome metrics for the three-oil sensitivity comparison.
 Reference-oil ensemble variability values used to contextualize the discrete oil-record contrasts.
 
 ## archive_sources/Fig1_reference_plot_source.csv.gz
-Compact submission-matched trajectory/endpoint source for Fig. 1. This replaces redistribution of the larger production NetCDF outputs for plotting and verification purposes.
+Compact trajectory/endpoint source for Fig. 1. This replaces redistribution of the larger production NetCDF outputs for plotting and verification purposes.
 
 ## archive_sources/FigS3_per_element_surface_time.csv.gz
 Compact per-element post-release surface-time source used for Supporting Fig. S3.
